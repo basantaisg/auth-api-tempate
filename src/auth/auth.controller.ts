@@ -13,7 +13,7 @@ import { LoginDto } from './dtos/login.dto';
 import type { Response } from 'express';
 import { AuthGuard } from '@nestjs/passport';
 
-@Controller('api/auth')
+@Controller('auth')
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
